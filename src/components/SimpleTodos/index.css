@@ -1,0 +1,59 @@
+/* Write your CSS here */
+
+@media (max-width: 768px) {
+  .bg-card {
+    background-color: #ffc2a0;
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .todo-main-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    padding: 40px;
+  }
+  .todo-heading {
+    color: #ff8542;
+    font-size: 30px;
+    text-align: center;
+    font-family: roboto;
+  }
+  .todo-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-card {
+    background-color: #ffc2a0;
+    font-family: 'robot';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .todo-main-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 730px;
+    padding: 60px;
+  }
+  .todo-heading {
+    color: #ff8542;
+    font-size: 40px;
+    text-align: center;
+    font-family: roboto;
+  }
+  .todo-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
